@@ -43,22 +43,34 @@ body {
 .js-greeting,
 .js-form {
   font-size: 36px;
-  color: gray;
+  color: rgb(102, 101, 101);
   text-shadow: 3px 3px 5px white;
+}
+
+.js-toDoForm {
+  position: relative;
 }
 
 .js-toDoForm input {
   height: 30px;
-  width: 300px;
+  width: 200px;
   border: none;
+
   background-color: transparent;
 }
 
 .js-toDoForm label {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
+  position: absolute;
+  bottom: 2px;
+  text-shadow: 2px 2px 2px black;
 }
 
-input:focus {
+.js-toDoForm input:focus {
   outline: none;
+}
+
+.js-toDoForm:focus-within label {
+  opacity: 0;
 }
