@@ -5,14 +5,14 @@ const API_KEY = "ec7aec6eb2a9b232bc5f84049602cd55";
 const COORDS = "coords";
 
 function getWeather(latitude, longitude){
-    fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&APPID=${API_key}&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&APPID=${API_KEY}&units=metric`)
     .then(function(response){
         return response.json();
     })
     .then(function(json){
         const temperature = json.main.temp;
         const place = json.name;
-        weather.innerText = `${temperature} @ ${place}`;
+        weather.innerText = `${place} ⁞ ${temperature}°C`;
     });
 }
 

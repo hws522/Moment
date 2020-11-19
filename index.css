@@ -43,7 +43,7 @@ body {
 .js-greeting,
 .js-form {
   font-size: 36px;
-  color: rgb(102, 101, 101);
+  color: rgb(63, 62, 62);
   text-shadow: 3px 3px 5px white;
 }
 
@@ -73,4 +73,12 @@ body {
 
 .js-toDoForm:focus-within label {
   opacity: 0;
+}
+
+.js-weather {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  font-size: 20px;
+  font-weight: 600;
 }
