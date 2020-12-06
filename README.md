@@ -1,6 +1,6 @@
 # Create a simple chrome app.
 
-VanillaJS 를 기반으로 Todo 기능이 있는 크롬앱을 구현했습니다.
+## VanillaJS 를 기반으로 Todo 기능이 있는 크롬앱을 구현했습니다.
 
 ### screen
 
