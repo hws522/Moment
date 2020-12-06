@@ -1,11 +1,13 @@
 # Create a simple chrome app.
 
-## VanillaJS 를 기반으로 Todo 기능이 있는 크롬앱을 구현했습니다.
+VanillaJS 를 기반으로 Todo 기능이 있는 크롬앱을 구현했습니다.
+
+---
 
 ### screen
 
 <img src="https://user-images.githubusercontent.com/59306143/101284770-06905600-3825-11eb-86de-36590321f1ec.gif" alt="제목-없음-3" width="600" height="400"/>
-
+   
 ### explanation
 
 - background image 는 animation 을 이용하여 좀 더 자연스럽게 나타나도록 했습니다.
